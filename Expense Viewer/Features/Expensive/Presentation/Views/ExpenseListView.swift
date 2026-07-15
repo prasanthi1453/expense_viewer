@@ -18,6 +18,7 @@ struct ExpenseListView: View {
     }
     
     var body: some View {
+        
         NavigationStack {
             Group {
                 switch vm.state {
